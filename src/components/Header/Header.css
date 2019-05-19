@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 15px 20px;
+  min-height: 60px;
+  border-bottom: 1px solid #b3b7bb;
+  background-color: #fff;
+}
+.header_transparent {
+  border-bottom: 0;
+  background-color: transparent;
+}

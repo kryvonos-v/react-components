@@ -1,0 +1,37 @@
+.header-action__inner {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  font-family: "SF Pro Display", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  appearance: none;
+  background-color: transparent;
+  color: #2943ff;
+}
+/* Increase clickable zone of button */
+.header-action__inner::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+}
+.header-action_left,
+.header-action_right {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: 'gold';
+}
+.header-action_left {
+  left: 20px;
+}
+.header-action_right {
+  right: 20px;
+}
